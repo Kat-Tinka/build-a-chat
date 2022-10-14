@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from './components/Navbar'
 
 // use the style code in const style with backticks and seperate each line with a coma in Tailwind
 
@@ -12,8 +13,8 @@ function App() {
     <div className={style.appContainer}>
     <section className={style.sectionContainer}>
     {/*Navbar*/}
+    <Navbar/>
     {/*Chat component*/}
-      Chat
     </section>
       
     </div>
